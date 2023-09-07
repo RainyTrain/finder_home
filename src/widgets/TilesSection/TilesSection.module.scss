@@ -1,0 +1,13 @@
+.TilesSection {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  height: 80px;
+  overflow-y: hidden;
+
+  &.isClose {
+   overflow-y: auto;
+   height: auto;
+  }
+}

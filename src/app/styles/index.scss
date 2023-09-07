@@ -1,0 +1,11 @@
+@import './reset.scss';
+@import './globals.scss';
+
+.app {
+  background-color: var(--main-bg-color);
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}

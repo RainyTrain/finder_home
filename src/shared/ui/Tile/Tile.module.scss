@@ -1,0 +1,19 @@
+.Tile {
+  border: 1px solid var(--border-tile-color);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 80px;
+
+  &:hover {
+    border: 1px solid var(--bg-icon-color);
+    cursor: pointer;
+  }
+}
+
+.text {
+  color: var(--bg-icon-color);
+}
